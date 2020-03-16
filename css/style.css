@@ -4,7 +4,8 @@ body {
   color: gray;
   font-weight: 300;
   font-size: 1rem;
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+  background-color: #000;}
 
 ::-moz-selection {
   background: #000;
@@ -15,7 +16,9 @@ body {
   color: #fff; }
 
   .person{
-    background-color: lightgrey;
+    background-color: #fff;
+    text-align: center;
+    /* border: 1px solid; */
   }
 
 a {
@@ -27,6 +30,14 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000; }
+
+.heading h1{
+  color: #fff;
+}
+
+.directors{
+  border: 1px solid #000;
+}
 
 .position-relative {
   position: relative !important; }
@@ -594,7 +605,8 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 3;
     position: relative; }
     .site-blocks-cover .intro .heading {
-      margin-left: -150px; }
+      /* margin-left: -150px; */
+     }
       @media (max-width: 991.98px) {
         .site-blocks-cover .intro .heading {
           margin-left: 0; } }
