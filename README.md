@@ -1,2 +1,2 @@
-# TegetMet
+# TargetMet
 Template for my company
