@@ -15,11 +15,12 @@ body {
   background: #000;
   color: #fff; }
 
-  .person{
-    background-color: #fff;
-    text-align: center;
-    /* border: 1px solid; */
-  }
+.person{
+  background-color: #fff;
+  text-align: center;
+  /* border: 1px solid; */
+}
+
 
 a {
   -webkit-transition: .3s all ease;
